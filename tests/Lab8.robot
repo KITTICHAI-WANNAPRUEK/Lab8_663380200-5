@@ -20,4 +20,3 @@ Open Browser Headless
     Call Method    ${options}    add_argument    --window-size=1920,1080
 
     Create WebDriver    Chrome    options=${options}
-    Go To    ${HOMEPAGE}
