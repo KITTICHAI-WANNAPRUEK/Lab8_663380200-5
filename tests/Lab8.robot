@@ -19,3 +19,4 @@ Open Browser Headless
     Call Method    ${options}    add_argument    --disable-gpu
 
     Create WebDriver    Chrome    options=${options}
+    Go To    ${HOMEPAGE}
